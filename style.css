@@ -1,0 +1,218 @@
+body { 
+    
+    color: #efefef;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.fixed-header .navigation {
+    padding: 10px 20px;
+}
+
+.fixed-header .navigation a {
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 4px 4px rgb(123, 1, 253);
+}
+
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none; 
+    
+}
+
+.navigation {
+    display: flex;
+
+}
+
+.navigation a {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 25px;
+    text-decoration: none; 
+    text-shadow: 4px 4px rgb(123, 1, 253);
+   
+}
+.navigation a:hover{
+    transform: scale(1.2);
+}
+
+.navigation a:hover {
+    color: #0ef;
+}
+
+.home-content {
+    margin-top: 10%; 
+    margin-left: 200px; 
+   
+}
+
+.home-content h1 {
+    font-size: 32px;
+    color: orange;
+}
+
+.home-content span,h3{
+    font-size: 20px;
+}
+.home-content span{
+    color:#0ef;
+    font-size: 35px;
+}
+
+.home-content a {
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    background-color:#0ef;
+    text-decoration: none; 
+    border:5px solid #0ef; 
+    border-radius: 40px;
+   
+}
+.vip {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-start; 
+    margin-top: 10%; 
+    margin-right: 250px; 
+}
+
+.vip img {
+    width: 350px; 
+    height: 350px; 
+    border: 4px solid #0ef; 
+    border-radius: 50%;
+    margin-top: -290px; 
+    
+}
+.about{
+    margin-bottom: 30%;
+}
+
+.about img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 15%;
+  border:10px solid #0ef
+}
+.about-text h1{
+    margin-left:770px;
+    color:#0ef
+
+}
+.about-text h2,h4{
+    margin-left:770px;
+    font-size: 20px;
+}
+.about-text{
+    margin-top: -15%;
+}
+.project h1{
+    color:#0ef;
+    margin-left: 20px;
+}
+.project img{
+    margin-left: 30px;
+    width: 40%;
+    height: 40%;
+    border:3px solid #0ef;
+}
+.project img:hover{
+  
+   border:5px solid #0ef;
+}
+
+.services {
+    margin-top: 20px; 
+    margin-left: 20%;
+}
+
+.services h1 {
+    font-size: 30px;
+    color: #0ef;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.service-item {
+    margin-bottom: 30px; 
+}
+
+.service-item h2 {
+    color: yellow;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #ccc;
+    font-size: 28px;
+}
+.service-item :hover{
+    color:rgb(16, 237, 104);
+}
+.service-item p:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+.contact {
+    margin-top: 50px;
+    
+    margin-left: 10%; 
+}
+
+.contact h1 {
+    color: #0ef;
+    margin-bottom: 20px;
+    margin-left: 30%; 
+    font-size: 40px;
+}
+
+.contact-info {
+    color: #0ef;
+    font-size: 30px;
+}
+.contact-info a{
+    color:#0ef;
+}
+.contact-info h1{
+    font-size: 30px;
+}
+.bi{
+    size: 30px;
+    margin-left: 30%; 
+}
+.con{
+    height: 15%;
+    width: 15%;
+   
+    margin-bottom: 0%;
+}
